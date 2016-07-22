@@ -1,0 +1,64 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: rgba(211,211,211,0.50);
+}
+.page {
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.15);
+	background-color: white;
+	margin: 4px 0px 40px 464px;
+	width: 413px;
+	padding: 29px 49px 50px 49px;
+}
+h2 {
+	text-align: center;
+	font-size: 1.4em;
+}
+img {
+	width: 142px;
+	height: 132px;
+	display: block;
+	margin: -2px 130px;
+}
+p {
+	font-size: 1.1em;
+	margin: 14px 0px 17px 12px;
+}
+hr {
+	width: 410px;
+	margin: 8px 0 8px 0;
+}
+.motivation {
+	padding-top: 10px;
+}
+#new {
+	padding-left: 12px;
+	padding-top: 20px;
+}
+.first {
+    padding-top: 14px;
+}
+li {
+    padding: 3px 0px 2px 0px;
+    margin-left: -3px;
+    font-size: 1.1em;
+}
+.contacts {
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+.info {
+	padding: 0px;
+	margin: 0px 0px 20px 12.5px;
+}
+.vk {
+	margin-top: 6px;
+}
+a {
+	color: blue;
+}
+.feedback {
+	margin: 24px 0 0 12px;
+}
