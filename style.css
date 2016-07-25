@@ -22,16 +22,16 @@ img {
 p {
 	font-family: Arial;
 	font-size: 14px;
-	margin: 25px 0 23px 263px;
+	margin: 25px 0 0 263px;
 	padding: 0;
 
 }
 hr {
 	width: 500px;
-	margin-left: 262px;
+	margin: 20px 0 20px 262px;
 }
-.motivation {
-	margin-top: 23px;
+.paragraph {
+	margin-top: 20px;
 	font-family: Myriad Pro;
 	font-weight: bold;
 	font-size: 18px;
@@ -41,7 +41,6 @@ hr {
 }
 li {
     margin-left: 299px;
-    font-size: 1.1em;
 }
 #new {
 	padding-left: 12px;
