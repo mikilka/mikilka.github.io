@@ -20,12 +20,15 @@ img {
 	margin-left: 411px;
 }
 p {
-	font-size: 1.1em;
-	margin: 14px 0px 17px 12px;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 25px 0 23px 263px;
+	padding: 0;
+
 }
 hr {
-	width: 410px;
-	margin: 8px 0 8px 0;
+	width: 500px;
+	margin-left: 262px;
 }
 .motivation {
 	padding-top: 10px;
