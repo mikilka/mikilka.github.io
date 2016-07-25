@@ -6,60 +6,58 @@ body {
 	background-color: #ffffff;
 }
 h2 {
-	margin-top: 50px;
-	margin-left: 272px;
+	margin: 43px 0 20px 269px;
 	font-family: Arial;
 	font-size: 36px;
+	text-transform: uppercase;
 }
 img {
 	width: 200px;
 	height: 200px;
 	border: solid #8f8f8f 1px;
 	display: block;
-	margin-top: 29px;
+	margin-top: 21px;
 	margin-left: 411px;
 }
 p {
-	font-family: Arial;
+	font-family: Myriad Pro;
 	font-size: 14px;
-	margin: 25px 0 0 263px;
+	margin: 20px 0 0 263px;
 	padding: 0;
-
+}
+.job {
+	font-family: Arial;
 }
 hr {
-	width: 500px;
-	margin: 20px 0 20px 262px;
+	width: 499px;
+	margin: 20px 0 0px 262px;
 }
 .paragraph {
-	margin-top: 20px;
-	font-family: Myriad Pro;
+	margin-top: 15px;
 	font-weight: bold;
 	font-size: 18px;
 }
+ul {
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
 .first {
-    margin-top: 25px;
+  margin-top: 23px;
 }
 li {
-    margin-left: 299px;
+  margin-left: 251px;
 }
-#new {
-	padding-left: 12px;
-	padding-top: 20px;
+.tabul {
+	margin-left: 299px;
+	margin-top: 21px;
 }
-.contacts {
-	padding-top: 10px;
-	margin-bottom: 5px;
+#vk {
+	margin-top: 14px;
 }
-.info {
-	padding: 0px;
-	margin: 0px 0px 20px 12.5px;
-}
-.vk {
-	margin-top: 6px;
+.adress {
+	margin-top: 22px;
+	margin-bottom: -1px;
 }
 a {
-	color: blue;
-}
-.feedback {
-	margin: 24px 0 0 12px;
+	color: #7694dd;
 }
