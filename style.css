@@ -31,19 +31,21 @@ hr {
 	margin-left: 262px;
 }
 .motivation {
-	padding-top: 10px;
+	margin-top: 23px;
+	font-family: Myriad Pro;
+	font-weight: bold;
+	font-size: 18px;
+}
+.first {
+    margin-top: 25px;
+}
+li {
+    margin-left: 299px;
+    font-size: 1.1em;
 }
 #new {
 	padding-left: 12px;
 	padding-top: 20px;
-}
-.first {
-    padding-top: 14px;
-}
-li {
-    padding: 3px 0px 2px 0px;
-    margin-left: -3px;
-    font-size: 1.1em;
 }
 .contacts {
 	padding-top: 10px;
