@@ -64,6 +64,8 @@ a {
 	background-color: #fff;
 }
 .sidebar li {
+	font-family: Open Sans;
+	font-size: 10pt;
 	border: solid 1px #c8c8c8;
 	display: inline-block;
 	color: #838383;
@@ -76,4 +78,21 @@ a {
 	padding-left: 35px;
 	color: #2c2c2c;
 	width: 228px;
+}
+/*Content*/
+.content {
+	display: inline-block;
+	width: 678px;
+	height: 400px;
+}
+.content img {
+	background-color: #fff;
+	border: solid 1px #c8c8c8;
+	margin-top: 50px;
+}
+.content p {
+	margin-top: 35px;
+	font-family: Open Sans;
+	font-size: 10pt;
+	text-decoration-color: 2c2c2c;
 }
