@@ -89,17 +89,26 @@ a {
 .content {
 	display: inline-block;
 	width: 678px;
-	height: 400px;
+	margin-left: -3px;
 }
-.content img {
+.velik {
 	background-color: #fff;
 	border: solid 1px #c8c8c8;
-	margin-top: 50px;
+	margin-top: 41px;
+	width: 676px;
+	height: 398px;
+}
+.velik img {
+	display: block;
+	margin: 46px auto;
 }
 .content p {
-	margin-top: 35px;
+	margin-top: 34px;
+	margin-left: 24px;
+	padding-right: 7px;
 	font-family: Open Sans;
 	font-size: 10pt;
+	line-height: 16pt;
 	text-decoration-color: 2c2c2c;
 }
 /*Footer*/
