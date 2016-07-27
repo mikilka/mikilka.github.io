@@ -2,6 +2,7 @@ body {
     width: 1366px;
     height: 950px;
     background-color: #f9f9f9;
+    position: relative;
 }
 .container {
 	background-color: #ffffff;
@@ -95,4 +96,40 @@ a {
 	font-family: Open Sans;
 	font-size: 10pt;
 	text-decoration-color: 2c2c2c;
+}
+/*Footer*/
+FOOTER {
+	width: 966px;
+	height: 40px;
+	background-color: #e1e1e1;
+	position: absolute;
+	left: 200px; bottom: 60px;
+}
+.links {
+	display: inline-block;
+	width: 560px;
+}
+.links li {
+	font-family: Open Sans;
+	font-size: 10pt;
+	display: inline-block;
+	color: #2c2c2c;
+	text-align: center;
+	width: 135px;
+	height: 40px;
+	line-height: 40px;
+}
+.links li:hover {
+	text-decoration: underline;
+}
+.rights {
+	font-family: Open Sans;
+	font-size: 10pt;
+	display: inline-block;
+	color: #2c2c2c;
+	text-align: center;
+	margin-right: 20px;
+	float: right;
+	height: 40px;
+	line-height: 40px;
 }
