@@ -1,0 +1,66 @@
+body {
+
+}
+
+.page {
+	width: 961px;
+	height: 883px;
+	background-image: url('../img/bg.png');
+	position: relative;
+	/*Раскоментировать, чтобы страничка была по центру окна*/
+	/* margin: 0 auto; */
+}
+
+/*Logo*/
+
+a {
+	text-decoration: none;
+}
+.logo {
+	position: absolute;
+	top: 132px;
+	left: 71px;
+	z-index: 2;
+}
+
+.palm {
+	position: absolute;
+	top: 57px;
+	left: 212px;
+	z-index: 1;
+}
+
+.slogan {
+	position: absolute;
+	top: 176.5px;
+	left: 154px;
+	font-family: Tahoma;
+	font-size: 8pt;
+	color: #e6e6e6;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+/*Contscts*/
+
+.contacts {
+	float: right;
+	margin-top: 151px;
+	margin-right: 64px;
+}
+
+.contacts p {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #e6e6e6;
+}
+
+.contacts p:first-child {
+	font-size: 8pt;
+}
+/*Content*/
+
