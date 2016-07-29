@@ -40,27 +40,54 @@ a {
 }
 
 .clearfix:after {
+	display: block;
 	content: '';
 	clear: both;
-	display: block;
 }
 
 /*Contscts*/
 
 .contacts {
 	float: right;
-	margin-top: 151px;
-	margin-right: 64px;
+	margin-top: 150px;
+	margin-right: 91px;
 }
 
 .contacts p {
 	font-family: Tahoma;
-	font-size: 12px;
+	font-size: 8px;
 	color: #e6e6e6;
 }
 
 .contacts p:first-child {
-	font-size: 8pt;
+	margin-left: 0;
+	margin-bottom: 7px;
+	font-size: 11px;
 }
+
+.contacts p:last-child {
+	margin-top: 4px;
+	margin-left: 1px;
+	font-size: 6pt;
+}
+
 /*Content*/
 
+.content {
+	display: block;
+	margin-left: 47px;
+}
+
+.ramka {
+	display: inline-block;
+	background-image: url(../img/ramka.png);
+	background-repeat: no-repeat;
+	margin: 13px -20px 45px 20px;
+	padding: 7px;
+}
+
+.content img {
+	display: inline-block;
+	width: 258px;
+	height: 176px;
+}
