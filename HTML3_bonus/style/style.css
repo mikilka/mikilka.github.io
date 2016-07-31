@@ -56,23 +56,26 @@ p {
 .contacts {
 	float: right;
 	margin-top: 150px;
-	margin-right: 91px;
+	margin-right: 82px;
 }
 
 .contacts p {
-	font-size: 8px;
+	font-family: Tahoma;
 }
 
 .contacts p:first-child {
-	margin-left: 0;
-	margin-bottom: 7px;
 	font-size: 11px;
 }
 
+.contacts p:nth-child(2) {
+	padding-top: 7px;
+	font-size: 6.5pt;
+}
+
 .contacts p:last-child {
-	margin-top: 4px;
+	margin-top: 2px;
+	font-size: 9px;
 	margin-left: 1px;
-	font-size: 6pt;
 }
 
 /*Content*/
