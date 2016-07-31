@@ -145,3 +145,8 @@ div.figure:nth-child(5) p {
 	width: 268px;
 }
 
+footer {
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+}
