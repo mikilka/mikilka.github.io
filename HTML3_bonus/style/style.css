@@ -145,8 +145,11 @@ div.figure:nth-child(5) p {
 	width: 268px;
 }
 
-footer {
+.footer p{
+	font-family: Tahoma;
 	position: absolute;
-	bottom: 5px;
+	bottom: 31px;
 	text-align: center;
+  width: 961px;
+	font-size: 11px;
 }
