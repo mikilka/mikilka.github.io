@@ -31,6 +31,7 @@ header {
 p {
 	font-family: Tahoma;
 	color: #128aa7;
+	font-size: 9pt;
 }
 
 .logo p {
@@ -42,6 +43,32 @@ p {
 	z-index: 2;
 }
 
+.contacts {
+	float: right;
+	margin-right: 17px;
+	margin-top: 5px;
+}
+
+.contacts p {
+	display: inline-block;
+	width: 150px;
+	letter-spacing: 0.4px;
+	line-height: 19px;
+}
+
+.contacts p:first-line {
+	font-weight: bold;
+	letter-spacing: -0.6px;
+	line-height: 25px;
+}
+
+.e-mail {
+	font-family: Tahoma;
+	color: #128aa7;
+	font-size: 9pt;
+	line-height: 17px;
+	letter-spacing: 0.1px;
+}
 /*FOOTER*/
 
 footer {
