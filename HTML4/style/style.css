@@ -22,10 +22,16 @@ header {
 	position: relative;
 }
 
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 .logo {
 	float: left;
-	margin-left: 38px;
-	margin-top: 13px;
+	margin-left: 37px;
+	margin-top: 11px;
 }
 
 p {
@@ -46,11 +52,12 @@ p {
 
 .right_box {
 	float: right;
+	width: 600px;
+	margin-top: 5px;
 }
 
 .contacts {
-	margin-right: 17px;
-	margin-top: 5px;
+	padding-left: 433px;
 }
 
 .contacts p {
@@ -75,7 +82,27 @@ p {
 }
 
 .countries {
-	float: left;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 30px;
+  margin-right: 35px;
+}
+
+.countries a {
+	margin: 1px 2px 0px 0px;
+	width: 55px;
+	text-align: center;
+	font-family: Tahoma;
+	color: #128aa7;
+	font-size: 8pt;
+	letter-spacing: -0.5px;
+}
+
+.photo {
+	background-image: url(../img/blue_lines.png);
+	z-index: 3;
+	width: 1000px;
+	margin-left: 9px;
 }
 
 /*FOOTER*/
