@@ -53,7 +53,7 @@ p {
 .right_box {
 	float: right;
 	width: 600px;
-	margin-top: 5px;
+	margin-top: 4px;
 }
 
 .contacts {
@@ -63,13 +63,13 @@ p {
 .contacts p {
 	display: inline-block;
 	width: 150px;
-	letter-spacing: 0.4px;
-	line-height: 19px;
+	letter-spacing: -0.2px;
+	line-height: 18px;
 }
 
 .contacts p:first-line {
 	font-weight: bold;
-	letter-spacing: -0.6px;
+	letter-spacing: -0.5px;
 	line-height: 25px;
 }
 
@@ -78,19 +78,19 @@ p {
 	color: #128aa7;
 	font-size: 9pt;
 	line-height: 17px;
-	letter-spacing: 0.1px;
+	letter-spacing: -0.1px;
 }
 
 .countries {
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 30px;
-  margin-right: 35px;
+  margin-right: 38px;
 }
 
 .countries a {
-	margin: 1px 2px 0px 0px;
-	width: 55px;
+	margin: 1px 3px 0px 1px;
+	width: 52px;
 	text-align: center;
 	font-family: Tahoma;
 	color: #128aa7;
@@ -101,8 +101,15 @@ p {
 .photo {
 	background-image: url(../img/blue_lines.png);
 	z-index: 3;
+	margin-top: -2px;
 	width: 1000px;
 	margin-left: 9px;
+}
+
+.photo img {
+	margin-top: -1px;
+  height: 236px;
+  width: 1000px;
 }
 
 /*FOOTER*/
