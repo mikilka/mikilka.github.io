@@ -114,7 +114,12 @@ p {
   width: 1000px;
 }
 
-/*CONTENT*/
+/*TOPMENU*/
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
 
 .topmenu {
 	background-image: url(../img/panel.png);
@@ -124,17 +129,53 @@ p {
 	margin-top: -3px;
 }
 
-/*.topmenu ul {
-	margin-left: 15px;
-}*/
+.topmenu ul {
+	padding-left: 29px;
+}
 
 .topmenu ul li {
-	display: inline;
-	color: #fff;
-	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	width: 132px;
+	line-height: 28px;
 	font-family: Tahoma, sans-serif;
 	font-size: 14px;
 }
+
+.menu {
+	background-image: url(../img/white-triangles.png);
+	background-position: 286px 13px;
+	z-index: 4;
+	background-repeat: no-repeat;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  width: 150px;
+	height: 135px;
+	background-color: #303030;
+	-webkit-box-shadow: 0 5px 5px rgba(0,0,0,.75);
+	-moz-box-shadow: 0 5px 5px rgba(0,0,0,.75);
+	box-shadow: 0 5px 5px rgba(0,0,0,.75);
+}
+
+ul.submenu>li {
+	display: block;
+	line-height: 26px;
+}
+
+.submenu li>a {
+	margin-left: -48px;
+}
+
+ul.menu>li:hover>ul.submenu {
+	display: block;
+}
+
+/*CONTENT*/
+
+
 
 /*FOOTER*/
 
