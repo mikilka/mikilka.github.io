@@ -18,6 +18,8 @@
 	z-index: 2;
 }
 
+/*HEADER*/
+
 header {
 	position: relative;
 }
@@ -110,6 +112,28 @@ p {
 	margin-top: -1px;
   height: 236px;
   width: 1000px;
+}
+
+/*CONTENT*/
+
+.topmenu {
+	background-image: url(../img/panel.png);
+	width: 1002px;
+	height: 30px;
+	margin-left: 7px;
+	margin-top: -3px;
+}
+
+/*.topmenu ul {
+	margin-left: 15px;
+}*/
+
+.topmenu ul li {
+	display: inline;
+	color: #fff;
+	line-height: 30px;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
 }
 
 /*FOOTER*/
