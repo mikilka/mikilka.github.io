@@ -1,3 +1,7 @@
+body {
+	position: relative;
+}
+
 .container {
 	background-image: url(../img/body_bg.png);
 	margin: 0 auto; 
@@ -176,7 +180,7 @@ ul.menu>li:hover>ul.submenu {
 .info,
 .news {
 	width: 209px;
-	height: 546px;
+	height: 545px;
 	background-color: #edeef0;
 }
 
@@ -190,16 +194,41 @@ ul.menu>li:hover>ul.submenu {
 	margin-right: 9px;
 }
 
+h2 {
+	font-family: Tahoma, sans-serif;
+	font-size: 17px;
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.news h2 {
+	margin-left: -6px;
+}
+
+.info p,
+.news p {
+	color: #424c43;
+	line-height: 20px;
+  margin-left: 15px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
 /*FOOTER*/
 
 footer {
 	position: absolute;
 	bottom: 12px;
 	text-align: center;
-	margin-left: 8px;
-	letter-spacing: 0.12px;
+	margin-left: 45px;
+	letter-spacing: -0.1px;
 	color: #fff;
 	font-size: 9pt;
 	font-family: Tahoma, sans-serif;
 	width: 1280px;
+	z-index: 5;
 }
