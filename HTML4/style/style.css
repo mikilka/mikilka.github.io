@@ -173,7 +173,22 @@ ul.menu>li:hover>ul.submenu {
 
 /*CONTENT*/
 
+.info,
+.news {
+	width: 209px;
+	height: 546px;
+	background-color: #edeef0;
+}
 
+.info {
+	margin-left: 9px;
+	float: left;
+}
+
+.news {
+	float: right;
+	margin-right: 9px;
+}
 
 /*FOOTER*/
 
