@@ -1,234 +1,234 @@
 body {
-	position: relative;
+    position: relative;
 }
 
 .container {
-	background-image: url(../img/body_bg.png);
-	margin: 0 auto; 
-	/*Закоментировать строчку выше и контейнер станет в левом верхнем углу*/
-	width: 1280px;
-	height: 1060px;
-	z-index: 1;
-	position: relative;
+    position: relative;
+    width: 1280px;
+    height: 1060px;
+    margin: 0 auto;
+    /*Закоментировать строчку выше и контейнер станет в левом верхнем углу*/
+    background-image: url('../img/body_bg.png');
+    z-index: 1;
 }
 
 .page {
-	position: absolute;
-	left: 141px;
-	top: 37px;
-	background-image: url(../img/page_bg.png);
-	width: 1018px;
-	height: 991px;
-	z-index: 2;
+    position: absolute;
+    top: 37px;
+    left: 141px;
+    width: 1018px;
+    height: 991px;
+    background-image: url('../img/page_bg.png');
+    z-index: 2;
 }
 
 /*HEADER*/
 
 header {
-	position: relative;
+    position: relative;
 }
 
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
 }
 
 .logo {
-	float: left;
-	margin-left: 37px;
-	margin-top: 11px;
+    margin-top: 11px;
+    margin-left: 37px;
+    float: left;
 }
 
 p {
-	font-family: Tahoma;
-	color: #128aa7;
-	font-size: 9pt;
+    color: #128aa7;
+    font-family: Tahoma;
+    font-size: 9pt;
 }
 
 .logo p {
-	position: absolute;
-	top: 111px;
-	left: 108px;
-	font-size: 11px;
-	font-weight: bold;
-	letter-spacing: -0.2px;
-	z-index: 2;
+    position: absolute;
+    top: 111px;
+    left: 108px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: -.2px;
+    z-index: 2;
 }
 
-.right_box {
-	float: right;
-	width: 600px;
-	margin-top: 4px;
+.right-box {
+    width: 600px;
+    margin-top: 4px;
+    float: right;
 }
 
 .contacts {
-	padding-left: 433px;
+    padding-left: 433px;
 }
 
 .contacts p {
-	display: inline-block;
-	width: 150px;
-	letter-spacing: -0.2px;
-	line-height: 18px;
+    display: inline-block;
+    width: 150px;
+    letter-spacing: -.2px;
+    line-height: 18px;
 }
 
-.contacts p:first-line {
-	font-weight: bold;
-	letter-spacing: -0.5px;
-	line-height: 25px;
+.contacts p::first-line {
+    font-weight: bold;
+    letter-spacing: -.5px;
+    line-height: 25px;
 }
 
 .e-mail {
-	font-family: Tahoma;
-	color: #128aa7;
-	font-size: 9pt;
-	line-height: 17px;
-	letter-spacing: -0.1px;
+    color: #128aa7;
+    font-family: Tahoma;
+    font-size: 9pt;
+    letter-spacing: -.1px;
+    line-height: 17px;
 }
 
 .countries {
-	display: flex;
-	justify-content: flex-end;
-	margin-top: 30px;
-  margin-right: 38px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 38px;
 }
 
 .countries a {
-	margin: 1px 3px 0px 1px;
-	width: 52px;
-	text-align: center;
-	font-family: Tahoma;
-	color: #128aa7;
-	font-size: 8pt;
-	letter-spacing: -0.5px;
+    width: 52px;
+    margin: 1px 3px 0 1px;
+    color: #128aa7;
+    font-family: Tahoma;
+    font-size: 8pt;
+    letter-spacing: -.5px;
+    text-align: center;
 }
 
 .photo {
-	background-image: url(../img/blue_lines.png);
-	z-index: 3;
-	margin-top: -2px;
-	width: 1000px;
-	margin-left: 9px;
+    width: 1000px;
+    margin-top: -2px;
+    margin-left: 9px;
+    background-image: url('../img/blue_lines.png');
+    z-index: 3;
 }
 
 .photo img {
-	margin-top: -1px;
-  height: 236px;
-  width: 1000px;
+    width: 1000px;
+    height: 236px;
+    margin-top: -1px;
 }
 
 /*TOPMENU*/
 
 a {
-	text-decoration: none;
-	color: #fff;
+    color: #fff;
+    text-decoration: none;
 }
 
 .topmenu {
-	background-image: url(../img/panel.png);
-	width: 1002px;
-	height: 30px;
-	margin-left: 7px;
-	margin-top: -3px;
+    width: 1002px;
+    height: 30px;
+    margin-top: -3px;
+    margin-left: 7px;
+    background-image: url('../img/panel.png');
 }
 
 .topmenu ul {
-	padding-left: 29px;
+    padding-left: 29px;
 }
 
 .topmenu ul li {
-	text-align: center;
-	display: inline-block;
-	width: 132px;
-	line-height: 28px;
-	font-family: Tahoma, sans-serif;
-	font-size: 14px;
+    display: inline-block;
+    width: 132px;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .triangle {
-	padding-left: 3px;
-	font-size: 10px;
+    padding-left: 3px;
+    font-size: 10px;
 }
 
 .submenu {
-  display: none;
-  position: absolute;
-  width: 150px;
-	height: 135px;
-	background-color: #303030;
-	-webkit-box-shadow: 0 5px 5px rgba(0,0,0,.75);
-	-moz-box-shadow: 0 5px 5px rgba(0,0,0,.75);
-	box-shadow: 0 5px 5px rgba(0,0,0,.75);
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 135px;
+    background-color: #303030;
+    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, .75);
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .75);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .75);
 }
 
-ul.submenu>li {
-	display: block;
-	line-height: 26px;
+.submenu>li {
+    display: block;
+    line-height: 26px;
 }
 
 .submenu li>a {
-	margin-left: -59px;
+    margin-left: -59px;
 }
 
-ul.menu>li:hover>ul.submenu {
-	display: block;
+.menu>li:hover>.submenu {
+    display: block;
 }
 
 /*CONTENT*/
 
 .info,
 .news {
-	width: 209px;
-	height: 545px;
-	background-color: #edeef0;
+    width: 209px;
+    height: 545px;
+    background-color: #edeef0;
 }
 
 .info {
-	margin-left: 9px;
-	float: left;
+    margin-left: 9px;
+    float: left;
+    border-right: 1px solid #c7cacf;
 }
 
 .news {
-	float: right;
-	margin-right: 9px;
+    margin-right: 9px;
+    float: right;
+    border-left: 1px solid #c7cacf;
 }
 
 h2 {
-	font-family: Tahoma, sans-serif;
-	font-size: 17px;
-  margin-top: 10px;
-  margin-left: 6px;
-  margin-bottom: 8px;
-  letter-spacing: -0.5px;
-	text-align: center;
-	font-weight: bold;
+    margin: 10px 0 8px 6px;
+    font-family: Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -.5px;
+    text-align: center;
 }
 
 .news h2 {
-	margin-left: -6px;
+    margin-left: -6px;
 }
 
 .info p,
 .news p {
-	color: #424c43;
-	line-height: 20px;
-  margin-left: 15px;
-  margin-bottom: 4px;
-  font-size: 14px;
+    margin-bottom: 4px;
+    margin-left: 15px;
+    color: #424c43;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 /*FOOTER*/
 
 footer {
-	position: absolute;
-	bottom: 12px;
-	text-align: center;
-	margin-left: 45px;
-	letter-spacing: -0.1px;
-	color: #fff;
-	font-size: 9pt;
-	font-family: Tahoma, sans-serif;
-	width: 1280px;
-	z-index: 5;
+    position: absolute;
+    bottom: 12px;
+    width: 1280px;
+    margin-left: 45px;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    font-size: 9pt;
+    letter-spacing: -.1px;
+    text-align: center;
+    z-index: 5;
 }
