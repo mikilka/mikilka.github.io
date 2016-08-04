@@ -142,11 +142,9 @@ a {
 	font-size: 14px;
 }
 
-.menu {
-	background-image: url(../img/white-triangles.png);
-	background-position: 286px 13px;
-	z-index: 4;
-	background-repeat: no-repeat;
+.triangle {
+	padding-left: 3px;
+	font-size: 10px;
 }
 
 .submenu {
@@ -166,7 +164,7 @@ ul.submenu>li {
 }
 
 .submenu li>a {
-	margin-left: -48px;
+	margin-left: -59px;
 }
 
 ul.menu>li:hover>ul.submenu {
